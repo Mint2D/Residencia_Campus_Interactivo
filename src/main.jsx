@@ -12,9 +12,10 @@ createRoot(document.getElementById("root")).render(
     <Canvas
       shadows
       camera={{
-        near: 0.001,
-        far: 400,
+        near: 0.01,
+        far: 30,
         fov: 90,
+        frustumCulled: true
       }}
     >
       {/* Controles de Usuario */}

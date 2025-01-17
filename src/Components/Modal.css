@@ -5,18 +5,6 @@
   padding: 50px;
 }
 
-.open-modal-btn {
-  padding: 10px 20px;
-  background-color: #4caf50;
-  color: white;
-  border: none;
-  cursor: pointer;
-}
-
-.open-modal-btn:hover {
-  background-color: #45a049;
-}
-
 .modal {
   position: fixed;
   top: 0;

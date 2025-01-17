@@ -29,7 +29,7 @@ function Modal({ id }) {
         <div className="modal">
           <div className="modal-content">
             <button onClick={dataCallBack} className="close-btn">
-              X
+              close
             </button>
             <h2>{modalId[id].nombre}</h2>
             <p>{modalId[id].descripcion}</p>
@@ -44,3 +44,4 @@ function Modal({ id }) {
 }
 
 export default Modal;
+

@@ -46,8 +46,8 @@ export default function App() {
         position={[-5, -13, -10]}
         rotationY={Math.PI / 4}
       />
-      <Html position={[-5, -1.85, -5.5]}>
-        <button
+      <Html position={[-5, -1.85, -5.5]} distanceFactor={15}>
+        <button  class="button-30" role="button"
           onClick={() => {
             setModalId(1);
             dataCallBack();
@@ -56,8 +56,8 @@ export default function App() {
           Cafeteria
         </button>
       </Html>
-      <Html position={[-10, btnHeight, -8]}>
-        <button
+      <Html position={[-10, btnHeight, -8]} distanceFactor={15}>
+        <button  class="button-30" role="button"
           onClick={() => {
             setModalId(2);
             dataCallBack();
@@ -66,8 +66,8 @@ export default function App() {
           Materiales
         </button>
       </Html>
-      <Html position={[-2, btnHeight, -6]}>
-        <button
+      <Html position={[-2, btnHeight, -6]} distanceFactor={15}>
+        <button  class="button-30" role="button"
           onClick={() => {
             setModalId(3);
             dataCallBack();
@@ -76,8 +76,8 @@ export default function App() {
           Industrial Estudiantil
         </button>
       </Html>
-      <Html position={[-1, btnHeight, -9]}>
-        <button
+      <Html position={[-1, btnHeight, -9]} distanceFactor={15}>
+        <button  class="button-30" role="button"
           onClick={() => {
             setModalId(4);
             dataCallBack();
@@ -86,8 +86,8 @@ export default function App() {
           Papeleria
         </button>
       </Html>
-      <Html position={[-4.15, btnHeight, -13]}>
-        <button
+      <Html position={[-4.15, btnHeight, -13]} distanceFactor={15}>
+        <button  class="button-30" role="button"
           onClick={() => {
             setModalId(5);
             dataCallBack();
@@ -96,8 +96,8 @@ export default function App() {
           Edificio 100
         </button>
       </Html>
-      <Html position={[-2, btnHeight, -15]}>
-        <button
+      <Html position={[-2, btnHeight, -15]} distanceFactor={15}>
+        <button  class="button-30" role="button"
           onClick={() => {
             setModalId(6);
             dataCallBack();
@@ -106,8 +106,8 @@ export default function App() {
           Edificio 200
         </button>
       </Html>
-      <Html position={[0, btnHeight, -18]}>
-        <button
+      <Html position={[0, btnHeight, -18]} distanceFactor={15}>
+        <button  class="button-30" role="button"
           onClick={() => {
             setModalId(7);
             dataCallBack();
@@ -116,18 +116,18 @@ export default function App() {
           Edificio 300
         </button>
       </Html>
-      <Html position={[5, btnHeight, -4]}>
-        <button
+      <Html position={[5, btnHeight, -4]} distanceFactor={15}>
+        <button  class="button-30" role="button"
           onClick={() => {
             setModalId(8);
             dataCallBack();
           }}
         >
-          Administracion & Academico
+          Edificios Academico & Administrativo
         </button>
       </Html>
-      <Html position={[4, btnHeight, -11]}>
-        <button
+      <Html position={[4, btnHeight, -11]} distanceFactor={15}>
+        <button  class="button-30" role="button"
           onClick={() => {
             setModalId(9);
             dataCallBack();
@@ -136,8 +136,8 @@ export default function App() {
           Edificio Q
         </button>
       </Html>
-      <Html position={[9, btnHeight, -6]}>
-        <button
+      <Html position={[9, btnHeight, -6]} distanceFactor={15}>
+        <button  class="button-30" role="button"
           onClick={() => {
             setModalId(10);
             dataCallBack();
@@ -146,8 +146,8 @@ export default function App() {
           Edificio 91L
         </button>
       </Html>
-      <Html position={[8, btnHeight, -10]}>
-        <button
+      <Html position={[8, btnHeight, -10]} distanceFactor={15}>
+        <button  class="button-30" role="button"
           onClick={() => {
             setModalId(11);
             dataCallBack();
@@ -156,8 +156,8 @@ export default function App() {
           Laboratorio L
         </button>
       </Html>
-      <Html position={[10, btnHeight, -9]}>
-        <button
+      <Html position={[10, btnHeight, -9]} distanceFactor={15}>
+        <button  class="button-30" role="button"
           onClick={() => {
             setModalId(12);
             dataCallBack();
@@ -166,8 +166,8 @@ export default function App() {
           Coordinacion Sistemas
         </button>
       </Html>
-      <Html position={[10, btnHeight, -9]}>
-        <button
+      <Html position={[10, btnHeight, -9]} distanceFactor={15}>
+        <button  class="button-30" role="button"
           onClick={() => {
             setModalId(13);
             dataCallBack();
@@ -176,8 +176,8 @@ export default function App() {
           Coordinacion Sistemas
         </button>
       </Html>
-      <Html position={[12, btnHeight, -11]}>
-        <button
+      <Html position={[12, btnHeight, -11]} distanceFactor={15}>
+        <button  class="button-30" role="button"
           onClick={() => {
             setModalId(14);
             dataCallBack();
@@ -186,8 +186,8 @@ export default function App() {
           Laboratorio D
         </button>
       </Html>
-      <Html position={[6, btnHeight, -15]}>
-        <button
+      <Html position={[6, btnHeight, -15]} distanceFactor={15}>
+        <button  class="button-30" role="button"
           onClick={() => {
             setModalId(15);
             dataCallBack();
@@ -196,8 +196,8 @@ export default function App() {
           Audiovisual
         </button>
       </Html>
-      <Html position={[9, btnHeight, -16]}>
-        <button
+      <Html position={[9, btnHeight, -16]} distanceFactor={15}>
+        <button  class="button-30" role="button"
           onClick={() => {
             setModalId(16);
             dataCallBack();
@@ -206,14 +206,94 @@ export default function App() {
           Edificio 500
         </button>
       </Html>
-      <Html position={[7, btnHeight, -19]}>
-        <button
+      <Html position={[7, btnHeight, -19]} distanceFactor={15}>
+        <button  class="button-30" role="button"
           onClick={() => {
             setModalId(17);
             dataCallBack();
           }}
         >
           Calafornix
+        </button>
+      </Html>
+      <Html position={[11, btnHeight, -21]} distanceFactor={15}>
+        <button  class="button-30" role="button"
+          onClick={() => {
+            setModalId(18);
+            dataCallBack();
+          }}
+        >
+          Biblioteca
+        </button>
+      </Html>
+      <Html position={[14, btnHeight, -18]} distanceFactor={15}>
+        <button  class="button-30" role="button"
+          onClick={() => {
+            setModalId(19);
+            dataCallBack();
+          }}
+        >
+          Biblioteca
+        </button>
+      </Html>
+      <Html position={[14, btnHeight, -14]} distanceFactor={15}>
+        <button  class="button-30" role="button"
+          onClick={() => {
+            setModalId(20);
+            dataCallBack();
+          }}
+        >
+          Biblioteca
+        </button>
+      </Html>
+      <Html position={[18, btnHeight, -14]} distanceFactor={15}>
+        <button  class="button-30" role="button"
+          onClick={() => {
+            setModalId(21);
+            dataCallBack();
+          }}
+        >
+          Biblioteca
+        </button>
+      </Html>
+      <Html position={[20, btnHeight, -18]} distanceFactor={15}>
+        <button  class="button-30" role="button"
+          onClick={() => {
+            setModalId(22);
+            dataCallBack();
+          }}
+        >
+          Biblioteca
+        </button>
+      </Html>
+      <Html position={[22, btnHeight, -16]} distanceFactor={15}>
+        <button  class="button-30" role="button"
+          onClick={() => {
+            setModalId(23);
+            dataCallBack();
+          }}
+        >
+          Biblioteca
+        </button>
+      </Html>
+      <Html position={[23, btnHeight, -19]} distanceFactor={15}>
+        <button  class="button-30" role="button"
+          onClick={() => {
+            setModalId(24);
+            dataCallBack();
+          }}
+        >
+          Biblioteca
+        </button>
+      </Html>
+      <Html position={[25, btnHeight, -21]} distanceFactor={15}>
+        <button  class="button-30" role="button"
+          onClick={() => {
+            setModalId(25);
+            dataCallBack();
+          }}
+        >
+          Biblioteca
         </button>
       </Html>
       <Html>
