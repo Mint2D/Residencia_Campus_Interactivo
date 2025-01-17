@@ -40,12 +40,12 @@ export default function App() {
       <directionalLight position={[0, 10, 0]}></directionalLight>
       <ambientLight intensity={1}></ambientLight>
       {/* Prueba de objectos */}
-        <Model
-          path={"/TomasAquino2.glb"}
-          size={0.1}
-          position={[-5, -13, -10]}
-          rotationY={Math.PI / 4}
-        />
+      <Model
+        path={"/TomasAquino2.glb"}
+        size={0.1}
+        position={[-5, -13, -10]}
+        rotationY={Math.PI / 4}
+      />
       <Html position={[-5, -1.85, -5.5]}>
         <button
           onClick={() => {
@@ -93,7 +93,7 @@ export default function App() {
             dataCallBack();
           }}
         >
-          Salones 100
+          Edificio 100
         </button>
       </Html>
       <Html position={[-2, btnHeight, -15]}>
@@ -103,17 +103,117 @@ export default function App() {
             dataCallBack();
           }}
         >
-          Salones 200
+          Edificio 200
         </button>
       </Html>
-      <Html position={[-2, btnHeight, -15]}>
+      <Html position={[0, btnHeight, -18]}>
         <button
           onClick={() => {
             setModalId(7);
             dataCallBack();
           }}
         >
-          Salones 300
+          Edificio 300
+        </button>
+      </Html>
+      <Html position={[5, btnHeight, -4]}>
+        <button
+          onClick={() => {
+            setModalId(8);
+            dataCallBack();
+          }}
+        >
+          Administracion & Academico
+        </button>
+      </Html>
+      <Html position={[4, btnHeight, -11]}>
+        <button
+          onClick={() => {
+            setModalId(9);
+            dataCallBack();
+          }}
+        >
+          Edificio Q
+        </button>
+      </Html>
+      <Html position={[9, btnHeight, -6]}>
+        <button
+          onClick={() => {
+            setModalId(10);
+            dataCallBack();
+          }}
+        >
+          Edificio 91L
+        </button>
+      </Html>
+      <Html position={[8, btnHeight, -10]}>
+        <button
+          onClick={() => {
+            setModalId(11);
+            dataCallBack();
+          }}
+        >
+          Laboratorio L
+        </button>
+      </Html>
+      <Html position={[10, btnHeight, -9]}>
+        <button
+          onClick={() => {
+            setModalId(12);
+            dataCallBack();
+          }}
+        >
+          Coordinacion Sistemas
+        </button>
+      </Html>
+      <Html position={[10, btnHeight, -9]}>
+        <button
+          onClick={() => {
+            setModalId(13);
+            dataCallBack();
+          }}
+        >
+          Coordinacion Sistemas
+        </button>
+      </Html>
+      <Html position={[12, btnHeight, -11]}>
+        <button
+          onClick={() => {
+            setModalId(14);
+            dataCallBack();
+          }}
+        >
+          Laboratorio D
+        </button>
+      </Html>
+      <Html position={[6, btnHeight, -15]}>
+        <button
+          onClick={() => {
+            setModalId(15);
+            dataCallBack();
+          }}
+        >
+          Audiovisual
+        </button>
+      </Html>
+      <Html position={[9, btnHeight, -16]}>
+        <button
+          onClick={() => {
+            setModalId(16);
+            dataCallBack();
+          }}
+        >
+          Edificio 500
+        </button>
+      </Html>
+      <Html position={[7, btnHeight, -19]}>
+        <button
+          onClick={() => {
+            setModalId(17);
+            dataCallBack();
+          }}
+        >
+          Calafornix
         </button>
       </Html>
       <Html>
