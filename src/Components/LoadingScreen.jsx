@@ -16,7 +16,7 @@ export default function LoadingScreen() {
   return (
     <>
       <Center>
-        <primitive ref={modelRef} object={scene} scale={0.5} />
+        <primitive ref={modelRef} object={scene} scale={3} />
       </Center>
       <Html center>
         <div
