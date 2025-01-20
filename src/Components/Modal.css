@@ -21,7 +21,7 @@
   cursor: pointer;
   display: flex;
   font-family: "JetBrains Mono", monospace;
-  height: 80%;
+  bottom: 20%;
   overflow: hidden;
   width: 337px; 
   justify-content: center;
@@ -55,9 +55,7 @@
 
 .close-btn {
   position: absolute;
-  top: 30%;
-  right: 0;
-  padding-right: 10%;
+  right: 0%;
   background-color: transparent;
   border: none;
   font-size: 20px;

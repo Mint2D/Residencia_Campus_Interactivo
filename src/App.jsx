@@ -37,7 +37,7 @@ export default function App() {
             dataCallBack();
           }}
         >
-          ?
+          Recursos <br/>Materiales
         </button>
       </Html>
       
@@ -50,7 +50,7 @@ export default function App() {
             dataCallBack();
           }}
         >
-          Coordinacion Industrial
+          Lab. <br/>Electronico
         </button>
       </Html>
       <Html position={[-5, btnHeight, -2.5]} distanceFactor={15}>
@@ -65,7 +65,8 @@ export default function App() {
           Cafeteria
         </button>
       </Html>
-      <Html position={[-3, btnHeight, -4]} distanceFactor={15}>
+      
+      <Html position={[-3, btnHeight, -6]} distanceFactor={15}>
         <button
           className="button-30"
           role="button"
@@ -74,10 +75,10 @@ export default function App() {
             dataCallBack();
           }}
         >
-          Industrial Estudiantil
+          Coordinacion <br/>Industrial
         </button>
       </Html>
-      <Html position={[-3, btnHeight, -6]} distanceFactor={15}>
+      <Html position={[-2, btnHeight, -4]} distanceFactor={15}>
         <button
           className="button-30"
           role="button"
@@ -86,7 +87,7 @@ export default function App() {
             dataCallBack();
           }}
         >
-          ?
+          Lab. Ciencias<br/>Basicas
         </button>
       </Html>
       <Html position={[-4, btnHeight, -11]} distanceFactor={15}>
@@ -122,7 +123,7 @@ export default function App() {
             dataCallBack();
           }}
         >
-          ?
+          Imprenta Escolar
         </button>
       </Html>
       <Html position={[1, btnHeight, -5]} distanceFactor={15}>
@@ -146,7 +147,7 @@ export default function App() {
             dataCallBack();
           }}
         >
-          Edificios Academico 
+          Edificio Academico 
         </button>
       </Html>
       <Html position={[4, btnHeight, -3]} distanceFactor={15}>
@@ -158,7 +159,7 @@ export default function App() {
             dataCallBack();
           }}
         >
-          Edificios Administrativo
+          Edificio Administrativo
         </button>
       </Html>
       <Html position={[7, btnHeight, 2]} distanceFactor={15}>
@@ -170,7 +171,7 @@ export default function App() {
             dataCallBack();
           }}
         >
-          ?
+          Entrada
         </button>
       </Html>
       <Html position={[-2, btnHeight, -13]} distanceFactor={15}>
@@ -231,7 +232,7 @@ export default function App() {
             dataCallBack();
           }}
         >
-          Lab L
+          Lab. I
         </button>
       </Html>
       <Html position={[10, btnHeight, -7]} distanceFactor={15}>
@@ -267,7 +268,7 @@ export default function App() {
             dataCallBack();
           }}
         >
-          ?
+          Departamento de <br/>Des. Academico
         </button>
       </Html>
       <Html position={[10, btnHeight, -10]} distanceFactor={15}>
@@ -279,7 +280,7 @@ export default function App() {
             dataCallBack();
           }}
         >
-          Lab D
+          Lab. D
         </button>
       </Html>
       
@@ -292,7 +293,7 @@ export default function App() {
             dataCallBack();
           }}
         >
-          ?
+          Comites <br/>Estudiantiles
         </button>
       </Html>
       <Html position={[7, btnHeight, -17]} distanceFactor={15}>
@@ -352,10 +353,10 @@ export default function App() {
             dataCallBack();
           }}
         >
-          Lab Mecatronica
+          Electromecatronica
         </button>
       </Html>
-      <Html position={[17, btnHeight, -19]} distanceFactor={15}>
+      <Html position={[-5 , btnHeight, -8]} distanceFactor={15}>
         <button
           className="button-30"
           role="button"
@@ -376,7 +377,7 @@ export default function App() {
             dataCallBack();
           }}
         >
-          Lab Manufactura
+          Lab. Herramientas
         </button>
       </Html>
       <Html position={[20, btnHeight, -16]} distanceFactor={15}>
@@ -388,7 +389,7 @@ export default function App() {
             dataCallBack();
           }}
         >
-          Q1
+          Lab. Quimica y <br/>Bioquimica
         </button>
       </Html>
       <Html position={[22, btnHeight, -14]} distanceFactor={15}>
@@ -400,7 +401,7 @@ export default function App() {
             dataCallBack();
           }}
         >
-          Q2
+          Lab. Alimentos
         </button>
       </Html>
       <Html position={[23, btnHeight, -17]} distanceFactor={15}>
@@ -412,7 +413,7 @@ export default function App() {
             dataCallBack();
           }}
         >
-          Q3
+          Lab. Microbiologia
         </button>
       </Html>
       <Html position={[25, btnHeight, -19]} distanceFactor={15}>
