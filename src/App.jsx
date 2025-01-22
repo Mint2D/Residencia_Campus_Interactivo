@@ -397,7 +397,7 @@ export default function App() {
           className="button-30"
           role="button"
           onClick={() => {
-            setModalId(23);
+            setModalId(31);
             dataCallBack();
           }}
         >
@@ -409,7 +409,7 @@ export default function App() {
           className="button-30"
           role="button"
           onClick={() => {
-            setModalId(24);
+            setModalId(32);
             dataCallBack();
           }}
         >
@@ -421,7 +421,7 @@ export default function App() {
           className="button-30"
           role="button"
           onClick={() => {
-            setModalId(25);
+            setModalId(33);
             dataCallBack();
           }}
         >
