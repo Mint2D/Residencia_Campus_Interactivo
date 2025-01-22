@@ -16,15 +16,16 @@ export default function LoadingScreen() {
   return (
     <>
       <Center>
-        <primitive ref={modelRef} object={scene} scale={3} />
+        <primitive ref={modelRef} object={scene} scale={0.5} />
       </Center>
       <Html center>
         <div
           style={{
-            fontSize: "24px",
-            color: "white",
+            fontSize: "128px",
+            fontFamily: "JetBrains Mono",
+            color: "Blue",
             position: "absolute",
-            top: "100px",
+            top: "40%",
           }}
         >
           Loading...
